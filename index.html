@@ -37,11 +37,11 @@
 
 <body class="sora-font">
     <!-- -----------------------------------------------header section start-------------------------------------------- -->
-    <header class="container mx-auto p-10">
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-white">
         <!-- ------------navbar section  -->
 
-        <nav>
-            <div class="navbar bg-base-100 ">
+        <nav class="container mx-auto p-10 ">
+            <div class="navbar  ">
                 <div class="navbar-start ">
 
                     <a class="btn btn-ghost text-xl"><img src="imges/logo-header.png" alt=""></a>
@@ -62,7 +62,15 @@
                     <a class="btn bg-btn-pricolor px-8 text-white text-xl">Register</a>
                 </div>
 
-                <div class="dropdown">
+                <div class="navbar-end lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 mr-3" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+
+                <!-- <div class="dropdown ">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -71,16 +79,43 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
                         <li><a>Product</a></li>
                         <li><a>Services</a></li>
                         <li><a>Contact us</a></li>
                     </ul>
-                </div>
+                </div> -->
 
             </div>
 
         </nav>
+
+
+        <!-- banner section -->
+
+        <section class="container mx-auto mt-10">
+            <div class="hero  ">
+                <div class="hero-content flex-col ">
+
+                    <div class="text-center">
+                        <h1 class="text-5xl font-bold">Freshness <span class="text-green-600">You Can <br>
+                                Count</span>
+                            On, Prices You’ll Love!
+                        </h1>
+                        <p class="py-6 ">
+                            Fresh vegetables are packed with essential nutrients, vitamins, and minerals that contribute
+                            to a healthy lifestyle. <br>
+                            Eating a variety of colorful vegetables daily helps boost immunity,<br> improve digestion,
+                            and maintain overall well-being.
+                        </p>
+
+                    </div>
+
+                    <img src="imges/hero-vegetables.png" class="h-600 " />
+                </div>
+            </div>
+        </section>
+
         <!-- -----------------------------------------------header section end-------------------------------------------- -->
     </header>
 
