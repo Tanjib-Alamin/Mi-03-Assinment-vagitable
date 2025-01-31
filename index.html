@@ -43,11 +43,15 @@
     <header class="bg-gradient-to-t from-[#EFEBE3] to-white">
         <!-- ------------navbar section  -->
 
-        <nav class="container mx-auto p-10 ">
+        <nav class="container mx-auto lg:p-10 pl-2 lg:border-none  border-b border-green-500 mb-5 ">
             <div class="navbar  ">
-                <div class="navbar-start ">
+                <div class="navbar-start hidden lg:flex ">
 
-                    <a class="btn btn-ghost text-xl"><img src="imges/logo-header.png" alt=""></a>
+                    <a class="btn btn-ghost   text-xl"><img src="imges/logo-header.png" alt=""></a>
+
+                </div>
+                <div class="navbar-start lg:hidden flex mb-4">
+                    <a class="  text-xl"><img src="imges/logo-footer.png" alt=""></a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-xl">
@@ -66,8 +70,8 @@
                 </div>
 
                 <div class="navbar-end lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 mr-3" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 mr-3 text-green-500" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h8m-8 6h16" />
                     </svg>
@@ -101,21 +105,21 @@
                 <div class="  ">
 
                     <div class="text-center">
-                        <h1 class="text-5xl font-bold">Freshness <span class="text-green-600">You Can <br>
+                        <h1 class="lg:text-5xl text-3xl font-bold">Freshness <span class="text-green-600">You Can <br>
                                 Count</span>
                             On, Prices You’ll Love!
                         </h1>
-                        <p class="py-6 ">
+                        <p class="py-6 lg:w-[50%] mx-auto ">
                             Fresh vegetables are packed with essential nutrients, vitamins, and minerals that contribute
-                            to a healthy lifestyle. <br>
-                            Eating a variety of colorful vegetables daily helps boost immunity,<br> improve digestion,
+                            to a healthy lifestyle.
+                            Eating a variety of colorful vegetables daily helps boost immunity, improve digestion,
                             and maintain overall well-being.
                         </p>
 
                     </div>
 
-                    <div class="mt-5">
-                        <img src="imges/hero-vegetables.png" class="" />
+                    <div class="mt-5 ">
+                        <img src="imges/hero-vegetables.png" class="mx-auto" />
                     </div>
                 </div>
             </div>
@@ -199,6 +203,122 @@
         </section>
 
 
+
+        <!-- fresh fruits -->
+
+        <section class="container mx-auto  mt-24 p-5">
+            <h2 class="text-4xl font-bold text-green-600">Fresh Fruits </h2>
+
+            <!-- cards container -->
+            <div class=" mt-10 lg:mt-20 grid lg:grid-cols-4 gap-x-4 gap-y-5">
+                <!-- cards -->
+                <div class="card card-compact bg-base-100  shadow-xl">
+                    <figure>
+                        <img src="imges/apple.png" alt="fruits" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Apple!</h2>
+                        <p>Apple is a delicious, crunchy fruit rich in vitamins and fiber.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn bg-btn-pricolor text-white ">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure>
+                        <img src="imges/banana.png" alt="fruits" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Banana</h2>
+                        <p>Banana is a soft, sweet fruit rich in potassium and energy.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn bg-btn-pricolor text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure>
+                        <img src="imges/jackfruit.png" alt="fruits" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Jackfruit</h2>
+                        <p>Jackfruit is a large, tropical fruit with a sweet, fibrous texture.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn bg-btn-pricolor text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure>
+                        <img src="imges/orange2.png" alt="orange" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Orange</h2>
+                        <p>Orange is a juicy, citrus fruit rich in vitamin C and antioxidants.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn bg-btn-pricolor text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-compact bg-base-100  shadow-xl">
+                    <figure>
+                        <img src="imges/lichi.png" alt="lichi" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Lichi</h2>
+                        <p>Lichi is a small, sweet fruit with juicy flesh and fragrance.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn bg-btn-pricolor text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-compact bg-base-100  shadow-xl">
+                    <figure>
+                        <img src="imges/mango.png" alt="mango" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Mango</h2>
+                        <p>Mango is a sweet, juicy fruit known as the king of fruits.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn bg-btn-pricolor text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-compact bg-base-100  shadow-xl">
+                    <figure>
+                        <img src="imges/pinaple.png" alt="pineapple" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Pineapple</h2>
+                        <p>Pineapple is a tangy, sweet tropical fruit rich in vitamins and enzymes.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn bg-btn-pricolor text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-compact bg-base-100  shadow-xl">
+                    <figure>
+                        <img src="imges/gova.png" alt="gova" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Guava</h2>
+                        <p>Guava is a sweet, nutritious fruit rich in vitamin C and fiber.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn bg-btn-pricolor text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <!-- popular products section -->
 
         <section class="my-10 lg:my-24 p-5 bg-services-color">
@@ -207,33 +327,140 @@
                 <h2 class=" text-2xl  lg:text-4xl font-bold text-green-600">Popular Products</h2>
                 <!-- card container -->
                 <div class=" grid  lg:grid-cols-5 lg:grid-rows-3 gap-3 mt-7 lg:mt-14">
-                    <!-- card -->
+                    <!--big card  -->
                     <div
-                        class=" col-span-2 row-span-3 relative  pl-5 pt-7 space-y-3 lg:pl-10 lg:pt-14 lg:space-y-6 bg-gradient-to-tl from-white to-[#53DB3A]   ">
+                        class=" col-span-2 row-span-3 relative pb-36 lg:pb-40  pl-5 pt-7 space-y-3 lg:pl-10 lg:pt-14 lg:space-y-6 bg-gradient-to-tl from-white to-[#53DB3A]   ">
                         <div class="relative ">
-                            <div class="space-y-10">
+                            <div class="space-y-10 relative z-10">
                                 <h3 class="text-white text-3xl font-bold">30% off</h3>
                                 <p>Discover a world of treats,toys,and <br> essential handpicked for</p>
                                 <button class="btn bg-white text-xl px-8">Buy Now</button>
                             </div>
 
-                            <div class="  absolute  bottom-0 right-0  ">
-                                <img src=" imges/vegetable-offer.png" alt="">
+                            <div class="  absolute   -bottom-36 lg:-bottom-40 right-0  ">
+                                <img src=" imges/vegetable-offer.png" class="" alt="">
                             </div>
                         </div>
 
                     </div>
-                    <div class=" bg-white ">
+                    <!-- small cards -->
 
+                    <div class=" bg-white flex p-2 lg:p-5 rounded-xl lg:space-x-3 items-center">
+                        <!-- img part -->
+                        <div class="border rounded-xl  lg:w-2/5 bg-services-color p-1 lg:p-2 h-20 w-16 ">
+                            <img src="imges/image 41.png" class=" bg-services-color " alt="">
+                        </div>
+                        <!-- text part -->
+                        <div class="pl-2 pt-2">
+                            <p><i class="fa-regular fa-star bg-yellow-400"></i> 4.5</p>
+                            <h3>Tomato 1KG</h3>
+                            <p>$39.99</p>
+                        </div>
                     </div>
-                    <div class=" bg-gray-400 ">3</div>
-                    <div class=" bg-gray-400 ">4</div>
-                    <div class=" bg-gray-400 ">5</div>
-                    <div class=" bg-gray-400 ">6</div>
-                    <div class=" bg-gray-400 ">7</div>
-                    <div class=" bg-gray-400 ">8</div>
-                    <div class=" bg-gray-400 ">9</div>
-                    <div class=" bg-gray-400 ">10</div>
+
+                    <div class=" bg-white flex p-2 lg:p-5 rounded-xl lg:space-x-3 items-center">
+                        <!-- img part -->
+                        <div class="border rounded-xl  lg:w-2/5 bg-services-color p-1 lg:p-2 h-20 w-16 ">
+                            <img src="imges/image 43.png" class=" bg-services-color " alt="">
+                        </div>
+                        <!-- text part -->
+                        <div class="pl-2 pt-2">
+                            <p><i class="fa-regular fa-star bg-yellow-400"></i> 4.5</p>
+                            <h3>Onion 1KG</h3>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class=" bg-white flex p-2 lg:p-5 rounded-xl lg:space-x-3 items-center">
+                        <!-- img part -->
+                        <div class="border rounded-xl  lg:w-2/5 bg-services-color p-1 lg:p-2 h-20 w-16 ">
+                            <img src="imges/image 44.png" class=" bg-services-color " alt="">
+                        </div>
+                        <!-- text part -->
+                        <div class="pl-2 pt-2">
+                            <p><i class="fa-regular fa-star bg-yellow-400"></i> 4.5</p>
+                            <h3>Potato 1KG</h3>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class=" bg-white flex p-2 lg:p-5 rounded-xl lg:space-x-3 items-center">
+                        <!-- img part -->
+                        <div class="border rounded-xl  lg:w-2/5 bg-services-color p-1 lg:p-2 h-20 w-16 ">
+                            <img src="imges/image 44.png" class=" bg-services-color " alt="">
+                        </div>
+                        <!-- text part -->
+                        <div class="pl-2 pt-2">
+                            <p><i class="fa-regular fa-star bg-yellow-400"></i> 4.5</p>
+                            <h3>Potato 1KG</h3>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class=" bg-white flex p-2 lg:p-5 rounded-xl lg:space-x-3 items-center">
+                        <!-- img part -->
+                        <div class="border rounded-xl  lg:w-2/5 bg-services-color p-1 lg:p-2 h-20 w-16 ">
+                            <img src="imges/image 41.png" class=" bg-services-color " alt="">
+                        </div>
+                        <!-- text part -->
+                        <div class="pl-2 pt-2">
+                            <p><i class="fa-regular fa-star bg-yellow-400"></i> 4.5</p>
+                            <h3>Onion 1KG</h3>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class=" bg-white flex p-2 lg:p-5 rounded-xl lg:space-x-3 items-center">
+                        <!-- img part -->
+                        <div class="border rounded-xl  lg:w-2/5 bg-services-color p-1 lg:p-2 h-20 w-16 ">
+                            <img src="imges/image 43.png" class=" bg-services-color " alt="">
+                        </div>
+                        <!-- text part -->
+                        <div class="pl-2 pt-2">
+                            <p><i class="fa-regular fa-star bg-yellow-400"></i> 4.5</p>
+                            <h3>Onion 1KG</h3>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class=" bg-white flex p-2 lg:p-5 rounded-xl lg:space-x-3 items-center">
+                        <!-- img part -->
+                        <div class="border rounded-xl  lg:w-2/5 bg-services-color p-1 lg:p-2 h-20 w-16 ">
+                            <img src="imges/image 41.png" class=" bg-services-color " alt="">
+                        </div>
+                        <!-- text part -->
+                        <div class="pl-2 pt-2">
+                            <p><i class="fa-regular fa-star bg-yellow-400"></i> 4.5</p>
+                            <h3>Onion 1KG</h3>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class=" bg-white flex p-2 lg:p-5 rounded-xl lg:space-x-3 items-center">
+                        <!-- img part -->
+                        <div class="border rounded-xl  lg:w-2/5 bg-services-color p-1 lg:p-2 h-20 w-16 ">
+                            <img src="imges/image 43.png" class=" bg-services-color " alt="">
+                        </div>
+                        <!-- text part -->
+                        <div class="pl-2 pt-2">
+                            <p><i class="fa-regular fa-star bg-yellow-400"></i> 4.5</p>
+                            <h3>Onion 1KG</h3>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class=" bg-white  hidden flex p-2 lg:p-5 rounded-xl lg:space-x-3 items-center">
+                        <!-- img part -->
+                        <div class="border rounded-xl  lg:w-2/5 bg-services-color p-1 lg:p-2 h-20 w-16 ">
+                            <img src="imges/image 44.png" class=" bg-services-color " alt="">
+                        </div>
+                        <!-- text part -->
+                        <div class="pl-2 pt-2">
+                            <p><i class="fa-regular fa-star bg-yellow-400"></i> 4.5</p>
+                            <h3>Potato 1KG</h3>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
